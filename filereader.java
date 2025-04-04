@@ -4,7 +4,7 @@ class read
     public static void main(String p[])
     {
         try {
-            FileReader fr=new FileReader("c://drashti//java//home.txt");
+            FileReader fr=new FileReader("c:\\drashti\\java\\home.txt");
             int i;
             while ((i = fr.read()) != -1)
             {
