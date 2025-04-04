@@ -5,7 +5,7 @@ class write
     public static void main(String p[])
     {
         try {
-            File f=new File("c://drashti//java//home.txt");
+            File f=new File("c:\\drashti\\java\\home.txt");
             FileWriter w = new FileWriter(f);
             Scanner sc=new Scanner(System.in);
             System.out.println("Enter Text : ");
